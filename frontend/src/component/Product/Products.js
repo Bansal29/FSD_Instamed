@@ -11,13 +11,11 @@ import Typography from "@material-ui/core/Typography";
 import MetaData from "../layout/MetaData";
 
 const categories = [
-  "Laptop",
-  "Footwear",
-  "Bottom",
-  "Tops",
-  "Attire",
-  "Camera",
-  "SmartPhones",
+  "Medicine",
+  "Surgical Instrument",
+  "Skin Care",
+  "Hair Care",
+  "Ayurvedic",
 ];
 
 const Products = ({ match }) => {
@@ -66,7 +64,7 @@ const Products = ({ match }) => {
         <Loader />
       ) : (
         <Fragment>
-          <MetaData title="PRODUCTS -- ECOMMERCE" />
+          <MetaData title="PRODUCTS -- INSTAMED" />
           <h2 className="productsHeading">Products</h2>
 
           <div className="products">

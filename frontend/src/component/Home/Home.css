@@ -1,5 +1,6 @@
 .banner {
-  background-image: url("../../images/cover.jfif");
+  /* background-image: url("../../images/cover.jfif"); */
+  background-image: url("../../images/pharma.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -14,12 +15,13 @@
 
 .banner > h1 {
   margin: 5vmax;
-
+  color: black;
   font: 600 2.5vmax "Roboto";
 }
 
 .banner > p {
   font: 300 1.4vmax "Lucida Sans";
+  color: black;
 }
 
 .banner > a > button {

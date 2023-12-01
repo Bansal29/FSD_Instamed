@@ -38,13 +38,11 @@ const UpdateProduct = ({ history, match }) => {
   const [imagesPreview, setImagesPreview] = useState([]);
 
   const categories = [
-    "Laptop",
-    "Footwear",
-    "Bottom",
-    "Tops",
-    "Attire",
-    "Camera",
-    "SmartPhones",
+    "Medicine",
+    "Surgical Instrument",
+    "Skin Care",
+    "Hair Care",
+    "Ayurvedic",
   ];
 
   const productId = match.params.id;

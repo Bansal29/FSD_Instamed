@@ -27,11 +27,11 @@ const Home = () => {
         <Loader />
       ) : (
         <Fragment>
-          <MetaData title="ECOMMERCE" />
+          <MetaData title="INSTAMED" />
 
           <div className="banner">
-            <p>Welcome to Ecommerce</p>
-            <h1>FIND AMAZING PRODUCTS BELOW</h1>
+            <p>Welcome to Instamed!</p>
+            <h1>ALL YOUR MEDICAL NEEDS AT ONE PLACE!! ORDER NOW!</h1>
 
             <a href="#container">
               <button>
